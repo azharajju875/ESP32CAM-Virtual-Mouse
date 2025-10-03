@@ -27,7 +27,7 @@ Connection [https://github.com/azharajju875/ESP32CAM-Virtual-Mouse/blob/main/ESP
 2. A code will be generated just comment the #define camera model wover kit and uncomment #define camera madel AI thinker
 3. Put the WiFi credentials which is connected to your computer
 4. Upload the code
-5. After code is uploaded disconnect the GPIO pin and Ground pin in board and press the reset button on the board
+5. After code is uploaded disconnect the GPIO0 pin [https://github.com/azharajju875/ESP32CAM-Virtual-Mouse/blob/main/ESP32-CAM%20and%20FTDI%20GPIO0%20removed.png], and Ground pin in board and press the reset button on the board
 6. Check the serial monitor an URL will be generated copy that and paste in any browser and check for video streaming
 7. Now open Python paste the HandTracking code [https://github.com/azharajju875/ESP32CAM-Virtual-Mouse/blob/main/HandTrack], this code used to track your hand through laptops camera andcontrol the cursor on screen
 8. If everything works good till here create another file and paste the Final code [https://github.com/azharajju875/ESP32CAM-Virtual-Mouse/blob/main/Final], in this code simply code the URL generated in the Serial monitor of Arduino IDE after URL and after the URL add /capture and click on run.
