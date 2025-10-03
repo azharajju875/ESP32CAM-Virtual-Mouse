@@ -20,7 +20,7 @@ A **virtual mouse** using the **ESP32-CAM module** that allows you to control yo
 1. ESP32-CAM module  
 2. FTDI programmer (for flashing code)    
 
-Connection []
+Connection [https://github.com/azharajju875/ESP32CAM-Virtual-Mouse/blob/main/ESP32-CAM%20and%20FTDI.png]
 
 ## Code Usage
 1. Open Arduino IDE go to flie -> exampkes -> esp32 -> camera -> camerawebserver
